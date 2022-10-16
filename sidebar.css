@@ -1,0 +1,82 @@
+﻿body {
+}
+.loginbox {
+    position: fixed;
+    width: 1090px;
+    height: calc(100vh);
+    left: 15%;
+    padding: 15px 40px;
+    background: #808080;
+    color: #DDD;
+    top: 21px;
+}
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: calc(100vh);
+    background: #006064;
+    color: #DDD;
+    top: 12px;
+    left: 10px;
+}
+
+.btnLogin, .btnUpdate {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 98%;
+    margin-bottom: 20px;
+    transition: .3s ease-in-out;
+}
+.lblEmail, .lblpwd {
+    font-weight: bold;
+    color: white;
+}
+
+.txtEmail, .txtpwd {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.txtEmail, .txtpwd {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+.btnLogin:hover {
+    background-color: rgb(76, 255, 0);
+}
+.myButton, .btnDelete {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    height: 40px;
+    width: 98%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    position: absolute;
+    bottom: 15px;
+    left: 2px;
+}
+
+.btnDelete:hover {
+   background-color: rgb(255, 0, 0);
+}
+.myButton:hover {
+    background-color: rgb(255, 0, 0);
+    }
+.text{
+    position: absolute;
+    left: 30px;
+}

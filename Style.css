@@ -1,0 +1,70 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Bosveld.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+.loginbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 450px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+.user{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+    position: absolute;
+    border-radius: 50%;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.lblEmail, .lblpwd{
+    font-weight: bold;
+    color: white;
+}
+.txtEmail, .txtpwd, .btnLogin{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.txtEmail, .txtpwd{
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color:transparent;
+}
+.lbtnForget,lbtnCreate{
+    height: 40px;
+    border-bottom: 3px;
+    font-size: 16px;
+}
+::Placeholder{
+    color: rgba(225,225,225,0.5);
+}
+.btnLogin{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+.btnLogin:hover{
+    background-color:rgb(76, 255, 0);
+}
